@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import MarkdownInput from './components/MarkdownInput';
+import App from './components/app';
 
 ReactDOM.render(
-  <MarkdownInput />,
+  <App />,
   document.getElementById('root')
 );
 // TODO: sass styling, code block higlight
